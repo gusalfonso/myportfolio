@@ -1,0 +1,98 @@
+.project-card {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  width: 500px;
+  border-radius: 12px;
+  background-color: rgb(15, 13, 50);
+  cursor: pointer;
+  color: white;
+}
+
+.card-content {
+  position: relative;
+  height: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.text-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.text-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 13ch;
+}
+
+.project-description {
+  margin-bottom: 8px;
+  width: 30ch;
+}
+
+.icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+}
+
+.project-image {
+  position: absolute;
+  right: 1px;
+  width: 250px;
+  transition: all 0.7s ease-out;
+}
+
+.image-gradient {
+  position: absolute;
+  height: 100%;
+  right: 40px;
+  background: linear-gradient(to right, rgb(15, 13, 50), transparent);
+  transition: all 0.7s ease-out;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  transition: all 0.5s ease-out;
+}
+
+.project-card:hover .text-content {
+  padding-left: 0;
+  opacity: 0;
+}
+
+.project-card:hover .project-image {
+  width: 500px;
+}
+
+.project-card:hover .image-gradient {
+  right: 500px;
+}
+
+.project-card:hover .edit-icon {
+  transform: scale(1);
+}

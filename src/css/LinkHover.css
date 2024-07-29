@@ -1,0 +1,29 @@
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.icon-container {
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link:hover {
+  transform: scale(1.15);
+}

@@ -38,7 +38,7 @@ function Board() {
         for (let col = 0; col < COLS; col++) {
           let liveNeighbors = 0;
 
-          DIRECTIONS.forEach(([directionX, directionY]: [number, number]) => {
+          DIRECTIONS.forEach(([directionX, directionY]) => {
             const neighborRow = row + directionX;
             const neighborCol = col + directionY;
 
@@ -100,7 +100,7 @@ function Board() {
           gridTemplateColumns: `repeat(${COLS}, ${cellSize}px)`,
           gridTemplateRows: `repeat(${ROWS}, ${cellSize}px)`,
         }}
-        onMouseLeave={handleMouseUp} // Para detener el dibujo si el mouse sale de la cuadrícula
+        onMouseLeave={handleMouseUp}
       >
         {grid.map((rows, originalRowIndex) =>
           rows.map((col, originalColIndex) => (

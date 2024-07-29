@@ -1,0 +1,35 @@
+.grid-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-container {
+  display: flex;
+  width: 200%;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.carrousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  animation-name: carrousel;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-duration: 60s;
+  width: 100%;
+}
+
+@keyframes carrousel {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
