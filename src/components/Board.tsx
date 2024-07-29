@@ -103,7 +103,7 @@ function Board() {
         onMouseLeave={handleMouseUp}
       >
         {grid.map((rows, originalRowIndex) =>
-          rows.map((col, originalColIndex) => (
+          rows.map((_col, originalColIndex) => (
             <button
               onMouseDown={() =>
                 handleMouseDown(originalRowIndex, originalColIndex)

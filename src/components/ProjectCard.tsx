@@ -109,11 +109,7 @@ function ProjectCard({
             </div>
           </div>
         </div>
-        <img
-          className="project-image"
-          src={`../../img/projects/${image}.jpg`}
-          alt={`Photo ${title}`}
-        />
+        <img className="project-image" src={image} alt={`Photo ${title}`} />
         <div className="image-gradient"></div>
         <svg
           className="edit-icon"

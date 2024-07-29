@@ -1,13 +1,11 @@
 .project-card {
-  width: 100%;
   position: relative;
   overflow: hidden;
-  height: 250px;
-  width: 500px;
+  min-height: 250px;
   border-radius: 12px;
-  background-color: rgb(15, 13, 50);
+  background-color: #ddd;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .card-content {
@@ -23,6 +21,7 @@
   align-items: center;
   padding: 20px;
   transition: all 0.3s ease-out;
+  width: 250px;
 }
 
 .text-details {
@@ -60,7 +59,7 @@
 .project-image {
   position: absolute;
   right: 1px;
-  width: 250px;
+  width: 400px;
   transition: all 0.7s ease-out;
 }
 

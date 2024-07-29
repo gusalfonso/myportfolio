@@ -1,19 +1,4 @@
-section {
-  min-height: 100dvh;
-  padding: 20px;
-  .skills {
-    display: grid;
-    align-content: center;
-  }
-}
-
 .app-container {
   position: absolute;
   z-index: -1;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
 }

@@ -14,3 +14,21 @@ ol,
 ul {
   list-style: none;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  gap: 2rem;
+}
+
+section {
+  padding: 20px;
+  max-width: 42rem;
+  width: 100%;
+  .skills {
+    display: grid;
+    align-content: center;
+  }
+}

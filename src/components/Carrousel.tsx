@@ -15,14 +15,14 @@ function Carrousel() {
     <ul className="grid-container" id="skill-container">
       <li className="skill-container" id="skill-container">
         <div className="carrousel" id="carrousel">
-          <Card skill="React" svg={<FaReact size={90} />} />
-          <Card skill="HTML" svg={<FaHtml5 size={90} />} />
-          <Card skill="CSS" svg={<FaCss3 size={90} />} />
-          <Card skill="Node.js" svg={<FaNodeJs size={90} />} />
-          <Card skill="JavaScript" svg={<FaJs size={90} />} />
-          <Card skill="Python" svg={<FaPython size={90} />} />
-          <Card skill="Tailwind" svg={<SiTailwindcss size={90} />} />
-          <Card skill="Astro" svg={<SiAstro size={90} />} />
+          <Card skill="React" svg={<FaReact size={45} />} />
+          <Card skill="HTML" svg={<FaHtml5 size={45} />} />
+          <Card skill="CSS" svg={<FaCss3 size={45} />} />
+          <Card skill="Node.js" svg={<FaNodeJs size={45} />} />
+          <Card skill="JavaScript" svg={<FaJs size={45} />} />
+          <Card skill="Python" svg={<FaPython size={45} />} />
+          <Card skill="Tailwind" svg={<SiTailwindcss size={45} />} />
+          <Card skill="Astro" svg={<SiAstro size={45} />} />
         </div>
       </li>
     </ul>

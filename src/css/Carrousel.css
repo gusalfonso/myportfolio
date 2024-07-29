@@ -1,6 +1,7 @@
 .grid-container {
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .skill-container {
@@ -8,11 +9,12 @@
   width: 200%;
   flex-direction: row;
   gap: 20px;
+  width: 100%;
 }
 
 .carrousel {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
   margin-top: 20px;
   animation-name: carrousel;
