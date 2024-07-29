@@ -197,7 +197,7 @@ export const DATA = {
           href: "https://pokedex-gusalfonso.netlify.app",
         },
       ],
-      image: "../../public/img/projects/pokedex.png",
+      image: "../../img/projects/pokedex.png",
       video: "",
     },
     {
