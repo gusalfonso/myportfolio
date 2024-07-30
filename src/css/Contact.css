@@ -1,7 +1,9 @@
 .contact-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .contactbtn {
@@ -22,4 +24,13 @@
 
 .contact-a {
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }

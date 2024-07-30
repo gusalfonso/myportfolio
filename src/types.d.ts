@@ -12,7 +12,7 @@ export interface DockIconProps {
   size?: number;
   magnification?: number;
   distance?: number;
-  // mouseX?: any;
+  mouseX?: any;
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
