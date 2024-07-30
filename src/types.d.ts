@@ -12,7 +12,7 @@ export interface DockIconProps {
   size?: number;
   magnification?: number;
   distance?: number;
-  mouseX?: any;
+  // mouseX?: any;
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
@@ -20,7 +20,6 @@ export interface DockIconProps {
 
 export interface TechIcon {
   title: string;
-  href: string;
   svg: ReactNode;
 }
 
@@ -28,7 +27,7 @@ export interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  techIcons: TechIcon[];
+  techIcons: string[];
 }
 
 export interface CardProp {

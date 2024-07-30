@@ -102,7 +102,7 @@ export const DATA = {
       active: true,
       description:
         "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["Typescript", "React", "HTML5", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       links: [
         {
           type: "Website",
@@ -119,7 +119,7 @@ export const DATA = {
       active: true,
       description:
         "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["Typescript", "React", "HTML5", "CSS", "JavaScript"],
+      technologies: ["HTML5", "CSS", "JavaScript"],
       links: [
         {
           type: "Website",
@@ -136,7 +136,7 @@ export const DATA = {
       active: true,
       description:
         "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["Typescript", "React", "HTML5", "CSS", "JavaScript"],
+      technologies: ["HTML5", "CSS", "JavaScript", "Astro"],
       links: [
         {
           type: "Website",
@@ -153,7 +153,7 @@ export const DATA = {
       active: true,
       description:
         "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["Typescript", "React", "HTML5", "CSS", "JavaScript"],
+      technologies: ["HTML5", "CSS", "Typescript", "React"],
       links: [
         {
           type: "Website",

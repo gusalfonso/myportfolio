@@ -9,7 +9,7 @@ function About() {
         <span className="section-icon">{<BsPersonCheck />}</span>
         <h1 className="section-title">About Me</h1>
       </div>
-      <p>{DATA.summary}</p>
+      <p className="summary">{DATA.summary}</p>
     </section>
   );
 }

@@ -1,0 +1,25 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  padding: 0.5rem;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #30455c;
+  border-radius: 15px;
+  color: white;
+}
+
+.contact-a {
+  text-decoration: none;
+}
