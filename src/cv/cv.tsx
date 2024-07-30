@@ -153,7 +153,7 @@ export const DATA = {
       active: true,
       description:
         "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["HTML5", "CSS", "Typescript", "React"],
+      technologies: ["HTML", "CSS", "Typescript", "React"],
       links: [
         {
           type: "Website",
