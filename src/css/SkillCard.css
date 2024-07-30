@@ -2,7 +2,7 @@
   display: flex;
   border: 1px solid transparent;
   border-radius: 15px;
-  background: fixed #ddd;
+  background: fixed #30455c;
   cursor: pointer;
   margin: 0px;
   flex-direction: column;
@@ -12,6 +12,6 @@
   justify-content: center;
   position: relative;
   transition: all 0.25s ease-in 0s;
-  color: black;
+  color: #d0dbe7;
   padding: 10px;
 }

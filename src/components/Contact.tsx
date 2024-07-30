@@ -1,9 +1,13 @@
+import { TiContacts } from "react-icons/ti";
 import "../css/Contact.css";
 
 function ContactMe() {
   return (
     <section>
-      <div>Contact Me</div>
+      <div className="title-container">
+        <span className="section-icon">{<TiContacts />}</span>
+        <h1 className="section-title">Let's talk!</h1>
+      </div>
     </section>
   );
 }
