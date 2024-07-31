@@ -57,7 +57,7 @@
     text-align: center;
 
     .img-container {
-      order: -1; /* Hace que la imagen esté arriba */
+      order: -1;
       width: 100%;
       margin-bottom: 1rem;
     }
