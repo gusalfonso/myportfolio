@@ -20,7 +20,7 @@ export interface DockIconProps {
 
 export interface TechIcon {
   title: string;
-  href: string;
+  href?: string;
   svg: ReactNode;
 }
 

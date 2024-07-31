@@ -22,6 +22,7 @@ function ProjectCard({
                 <span key={index} className="tech-icon">
                   <SocialLink
                     key={index}
+                    href=""
                     title={tech}
                     svg={<IconComponent />}
                   />
