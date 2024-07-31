@@ -3,6 +3,7 @@ import "../css/Hero.css";
 import { DATA } from "../cv/cv";
 import LinkHover from "./LinkHover";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -17,6 +18,11 @@ export default function Hero() {
                 title="Linkedin"
                 href="https://www.linkedin.com/in/gustavoaalfonso/"
                 svg={<FaLinkedin />}
+              />
+              <LinkHover
+                title="Github"
+                href="https://github.com/gusalfonso"
+                svg={<FaGithub />}
               />
               <LinkHover
                 title="Contact"
