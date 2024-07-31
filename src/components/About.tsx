@@ -4,12 +4,19 @@ import { DATA } from "../cv/cv";
 
 function About() {
   return (
-    <section id="about">
+    <section className="aboutme" id="aboutme">
       <div className="title-container">
         <span className="section-icon">{<BsPersonCheck />}</span>
         <h1 className="section-title">About Me</h1>
       </div>
-      <p className="summary">{DATA.summary}</p>
+      <div className="summary">
+        {DATA.summary
+          .split(".  ")
+          .map(
+            (sentence, index) =>
+              sentence.trim() !== "" && <p key={index}>{sentence.trim()}.</p>
+          )}
+      </div>
     </section>
   );
 }

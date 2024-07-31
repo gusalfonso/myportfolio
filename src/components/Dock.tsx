@@ -1,6 +1,4 @@
-// import { cn } from "@/lib/utils";
 import { DockProps, DockIconProps } from "../types"; // Importa los tipos desde el archivo `types.ts`
-// import { cva } from "class-variance-authority";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 
@@ -20,6 +18,7 @@ function Dock(
   const mouseX = useMotionValue(Infinity);
 
   function renderChildren() {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return React.Children.map(children, (child: any) => {
       if (React.isValidElement(child)) {
         return React.cloneElement(child, {
@@ -39,7 +38,6 @@ function Dock(
       onMouseLeave={() => mouseX.set(Infinity)}
       {...props}
       className={className}
-      //   className={cn(dockVariants({ className }))}
     >
       {renderChildren()}
     </motion.div>
@@ -47,6 +45,7 @@ function Dock(
 }
 
 function DockIcon({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   size,
   magnification = DEFAULT_MAGNIFICATION,
   distance = DEFAULT_DISTANCE,
@@ -75,17 +74,7 @@ function DockIcon({
   });
 
   return (
-    <motion.div
-      ref={ref}
-      style={{ width }}
-      className={
-        // cn(
-        // "flex aspect-square cursor-pointer items-center justify-center rounded-full",
-        className
-        //   )
-      }
-      {...props}
-    >
+    <motion.div ref={ref} style={{ width }} className={className} {...props}>
       {children}
     </motion.div>
   );

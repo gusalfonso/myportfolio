@@ -4,7 +4,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 function ContactMe() {
   return (
-    <section>
+    <section className="contact" id="contact">
       <div className="title-container">
         <span className="section-icon">{<TiContacts />}</span>
         <h1 className="section-title">Let's talk!</h1>

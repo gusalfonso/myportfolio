@@ -1,7 +1,7 @@
 import "../css/Footer.css";
 
 function Footer() {
-  return;
+  return <h1>Hola mundo</h1>;
 }
 
 export default Footer;

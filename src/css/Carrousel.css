@@ -6,7 +6,7 @@
 
 .skill-container {
   display: flex;
-  width: 200%;
+  width: 300%;
   flex-direction: row;
   gap: 20px;
   /* width: 100%; */
@@ -21,13 +21,13 @@
   animation-timing-function: linear;
   animation-fill-mode: both;
   animation-direction: alternate;
-  animation-duration: 45s;
-  width: 100%;
+  animation-duration: 25s;
+  width: 200%;
 }
 
 @keyframes carrousel {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);

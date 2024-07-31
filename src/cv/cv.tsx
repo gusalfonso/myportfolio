@@ -4,31 +4,26 @@ import {
   AiOutlineCode,
   AiOutlineForm,
 } from "react-icons/ai";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const DATA = {
   name: "Gustavo Alfonso",
   initials: "GA",
   url: "",
   location: "Novo Hamburgo, RS, Brazil",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://maps.app.goo.gl/4Sqb5WzVSZ5epdja9",
   description:
-    "Chemical Engineer turned Developer. I love building things and helping people. Fly its my Hobbie",
+    "Chemical Engineer turned into Developer. I love building things and helping people. Love Flying",
   summary:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "My name is Gustavo Alfonso, but my friends call me Tavi. Driven by a deep curiosity about electronics and programming, I have always sought to innovate and explore new technologies. While pursuing my studies in Chemical Engineering, I actively managed and ideated numerous projects, from designing Arduino circuits to developing dynamic web pages.  My passion for initiating and leading new ventures led me to co-found Hidrovita with colleagues, where we designed and built a hydroponics company focused on producing organic food, promoting sustainability, and advancing a circular economy.  Recently, I achieved a long-held dream by becoming an airplane pilot, further expanding my horizons and embracing new challenges.",
   avatarUrl: "/img/me.jpg",
   skills: ["React", "Typescript", "Python", "Go", "mySQL", "Astro", "Tailwind"],
   navbar: [
-    { href: "/", icon: AiOutlineHome, label: "Home" },
-    { href: "/blog", icon: AiOutlineFileText, label: "Blog" },
-    { href: "#", icon: AiOutlineCode, label: "Projects" },
-    { href: "#", icon: AiOutlineForm, label: "Notes" },
+    { href: "#hero", icon: AiOutlineHome, label: "Home" },
+    { href: "#aboutme", icon: AiOutlineFileText, label: "About Me" },
+    { href: "#projects", icon: AiOutlineCode, label: "Projects" },
+    { href: "#contact", icon: AiOutlineForm, label: "Contact" },
   ],
   contact: {
     email: "alfonsgustavo@gmail.com",
@@ -36,34 +31,34 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/gusalfonso",
         icon: FaGithub,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/gustavoaalfonso/",
         icon: FaLinkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: FaTwitter,
+        url: "https://x.com/alfonsgustavo",
+        icon: FaXTwitter,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: FaYoutube,
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/alfonso.tavi/",
+        icon: FaInstagram,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:alfonsgustavo@gmail.com",
         icon: FaEnvelope,
         navbar: false,
       },
@@ -106,6 +101,10 @@ export const DATA = {
       links: [
         {
           type: "Website",
+          href: "https://pokedex-gusalfonso.netlify.app",
+        },
+        {
+          type: "Github",
           href: "https://pokedex-gusalfonso.netlify.app",
         },
       ],

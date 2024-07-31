@@ -1,27 +1,23 @@
 import "./App.css";
-// import Board from "./components/Board";
-// import { DATA } from "./cv/cv";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Project from "./components/Project";
 import ContactMe from "./components/Contact";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      {/* <section className="home" id="home">
-        <div className="app-container">
-          <Board />
-        </div>
-      </section> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
         <Hero />
+        <About />
         <Project />
         <Skills />
-        <About />
         <ContactMe />
+        <Footer />
       </main>
     </>
   );
