@@ -20,6 +20,7 @@ function Projects() {
             description={project.description}
             image={project.image}
             techIcons={[...project.technologies]}
+            links={project.links}
           />
         ))}
       </div>

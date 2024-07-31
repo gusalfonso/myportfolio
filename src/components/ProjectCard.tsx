@@ -1,13 +1,16 @@
+import { FaGithub } from "react-icons/fa";
 import "../css/ProjectCard.css";
 import { ProjectCardProps } from "../types";
 import getIconForTech from "../utils/iconstree"; // Asegúrate de ajustar la ruta
 import SocialLink from "./LinkHover";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function ProjectCard({
   title,
   description,
   image,
   techIcons,
+  links,
 }: ProjectCardProps) {
   return (
     <div className={`project-card ${title}`}>
@@ -33,6 +36,14 @@ function ProjectCard({
         </div>
         <img className="project-image" src={image} alt={`Photo ${title}`} />
         <div className="image-gradient"></div>
+        <div className="preview-icons">
+          <a href={links[0].href}>
+            <FaArrowUpRightFromSquare size={25} />
+          </a>
+          <a href={links[1].href}>
+            <FaGithub size={25} />
+          </a>
+        </div>
       </div>
     </div>
   );

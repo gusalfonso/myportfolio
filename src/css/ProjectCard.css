@@ -35,6 +35,22 @@
         max-width: 13ch;
       }
     }
+    .preview-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      opacity: 0;
+      z-index: 100;
+      gap: 1rem;
+      transition: opacity 0.3s ease-out;
+
+      a {
+        color: #30455c;
+      }
+    }
   }
 }
 
@@ -63,7 +79,7 @@
   position: absolute;
   right: 1.25rem;
   height: 100%;
-  right: -40%;
+  right: -20%;
   transition: all 0.7s ease-out;
   z-index: 1;
 }
@@ -91,6 +107,10 @@
   opacity: 0;
 }
 
+.project-card:hover .preview-icons {
+  opacity: 1;
+}
+
 .project-card:hover .project-image {
   content: cover;
   right: 50%;
@@ -102,4 +122,15 @@
 }
 .project-card:hover .edit-icon {
   transform: scale(1);
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    position: absolute;
+    right: 1.25rem;
+    height: 100%;
+    right: -40%;
+    transition: all 0.7s ease-out;
+    z-index: 1;
+  }
 }

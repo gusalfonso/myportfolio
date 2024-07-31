@@ -29,6 +29,7 @@ export interface ProjectCardProps {
   description: string;
   image: string;
   techIcons: string[];
+  links: ReadonlyArray<{ type: string; href: string }>;
 }
 
 export interface CardProp {

@@ -17,7 +17,7 @@ function App() {
         <Project />
         <Skills />
         <ContactMe />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   );

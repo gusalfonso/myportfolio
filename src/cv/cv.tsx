@@ -91,38 +91,21 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "ChatGPT",
-      href: "https://pomodorotimerjs.netlify.app",
-      dates: "",
-      active: true,
-      description:
-        "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      links: [
-        {
-          type: "Website",
-          href: "https://pokedex-gusalfonso.netlify.app",
-        },
-        {
-          type: "Github",
-          href: "https://pokedex-gusalfonso.netlify.app",
-        },
-      ],
-      image: "../../img/projects/pokedex.png",
-      video: "",
-    },
-    {
       title: "Pomodoro Timer",
       href: "https://pomodorotimerjs.netlify.app",
       dates: "",
       active: true,
       description:
-        "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
+        "A timer application built with JavaScript and CSS to manage time efficiently using the Pomodoro technique.",
       technologies: ["HTML5", "CSS", "JavaScript"],
       links: [
         {
           type: "Website",
-          href: "https://pokedex-gusalfonso.netlify.app",
+          href: "https://pomodorotimerjs.netlify.app",
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/pomodoro-js",
         },
       ],
       image: "../../img/projects/pomodoro.png",
@@ -130,16 +113,20 @@ export const DATA = {
     },
     {
       title: "Game of Life",
-      href: "https://pomodorotimerjs.netlify.app",
+      href: "https://myconwaysgame.netlify.app",
       dates: "",
       active: true,
       description:
-        "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["HTML5", "CSS", "JavaScript", "Astro"],
+        "A React-based implementation of Conway's Game of Life developed using Astro. This project highlights the use of extensive CSS styling.",
+      technologies: ["HTML5", "CSS", "JavaScript", "Astro", "React"],
       links: [
         {
           type: "Website",
-          href: "https://pokedex-gusalfonso.netlify.app",
+          href: "https://myconwaysgame.netlify.app",
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/conways-game",
         },
       ],
       image: "../../img/projects/conwaysgame.png",
@@ -158,8 +145,33 @@ export const DATA = {
           type: "Website",
           href: "https://pokedex-gusalfonso.netlify.app",
         },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/pokedex-react-typescript",
+        },
       ],
       image: "../../img/projects/pokedex.png",
+      video: "",
+    },
+    {
+      title: "ChatGPT",
+      href: "https://gusalfonsoia.netlify.app",
+      dates: "",
+      active: true,
+      description:
+        "Utilizes Web-LLM, WebGPU, and Web Workers with HTML, CSS, and JavaScript for a high-performance chat interface in the browser.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://gusalfonsoia.netlify.app",
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/localChatGPT",
+        },
+      ],
+      image: "../../img/projects/chatgpt.png",
       video: "",
     },
   ],
