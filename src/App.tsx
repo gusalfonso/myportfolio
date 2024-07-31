@@ -4,7 +4,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import ContactMe from "./components/Contact";
 import Skills from "./components/Skills";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Project />
         <Skills />
         <ContactMe />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );
