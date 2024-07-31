@@ -101,10 +101,6 @@ section {
   padding: 20px;
   width: 100%;
   color: #30455c;
-  .skills {
-    display: grid;
-    align-content: center;
-  }
 
   .title-container {
     display: flex;

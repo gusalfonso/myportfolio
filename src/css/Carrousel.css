@@ -6,7 +6,7 @@
 
 .skill-container {
   display: flex;
-  width: 300%;
+  width: 1000%;
   flex-direction: row;
   gap: 20px;
   /* width: 100%; */
