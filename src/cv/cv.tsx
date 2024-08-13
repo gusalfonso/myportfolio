@@ -91,13 +91,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Pilot Quiz",
+      href: "https://pilotquiz.netlify.app",
+      dates: "",
+      active: true,
+      description:
+        "A quiz app designed to help practice for the ANAC pilot exam. Built with React, TypeScript, and Zustand.",
+      technologies: ["HTML", "CSS", "Typescript", "React"],
+      links: [
+        {
+          type: "Website",
+          href: "https://pilotquiz.netlify.app",
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/pilot-quiz",
+        },
+      ],
+      image: "../../img/projects/pilotquiz.png",
+      video: "",
+    },
+    {
       title: "Pomodoro Timer",
       href: "https://pomodorotimerjs.netlify.app",
       dates: "",
       active: true,
       description:
         "A timer application built with JavaScript and CSS to manage time efficiently using the Pomodoro technique.",
-      technologies: ["HTML5", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       links: [
         {
           type: "Website",
@@ -118,7 +139,7 @@ export const DATA = {
       active: true,
       description:
         "A React-based implementation of Conway's Game of Life developed using Astro. This project highlights the use of extensive CSS styling.",
-      technologies: ["HTML5", "CSS", "JavaScript", "Astro", "React"],
+      technologies: ["HTML", "CSS", "JavaScript", "Astro", "React"],
       links: [
         {
           type: "Website",
