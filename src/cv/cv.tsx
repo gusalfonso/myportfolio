@@ -112,6 +112,27 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Pokedéx",
+      href: "https://pokedex-gusalfonso.netlify.app",
+      dates: "",
+      active: true,
+      description:
+        "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
+      technologies: ["HTML", "CSS", "Typescript", "React"],
+      links: [
+        {
+          type: "Website",
+          href: "https://pokedex-gusalfonso.netlify.app",
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gusalfonso/pokedex-react-typescript",
+        },
+      ],
+      image: "../../img/projects/pokedex.png",
+      video: "",
+    },
+    {
       title: "Pomodoro Timer",
       href: "https://pomodorotimerjs.netlify.app",
       dates: "",
@@ -153,27 +174,7 @@ export const DATA = {
       image: "../../img/projects/conwaysgame.png",
       video: "",
     },
-    {
-      title: "Pokedéx",
-      href: "https://pokedex-gusalfonso.netlify.app",
-      dates: "",
-      active: true,
-      description:
-        "A dynamic Pokémon Pokédex built with React and TypeScript, featuring search functionality, detailed Pokémon info, and custom data visualizations.",
-      technologies: ["HTML", "CSS", "Typescript", "React"],
-      links: [
-        {
-          type: "Website",
-          href: "https://pokedex-gusalfonso.netlify.app",
-        },
-        {
-          type: "Github",
-          href: "https://github.com/gusalfonso/pokedex-react-typescript",
-        },
-      ],
-      image: "../../img/projects/pokedex.png",
-      video: "",
-    },
+
     {
       title: "ChatGPT",
       href: "https://gusalfonsoia.netlify.app",
