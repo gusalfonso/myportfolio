@@ -37,10 +37,10 @@ function ProjectCard({
         <img className="project-image" src={image} alt={`Photo ${title}`} />
         <div className="image-gradient"></div>
         <div className="preview-icons">
-          <a href={links[0].href}>
+          <a href={links[0].href} target="_blank">
             <FaArrowUpRightFromSquare size={25} />
           </a>
-          <a href={links[1].href}>
+          <a href={links[1].href} target="_blank">
             <FaGithub size={25} />
           </a>
         </div>
