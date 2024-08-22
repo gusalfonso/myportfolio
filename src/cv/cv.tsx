@@ -108,7 +108,7 @@ export const DATA = {
           href: "https://github.com/gusalfonso/pilot-quiz",
         },
       ],
-      image: "../../img/projects/pilotquiz.png",
+      image: "../../img/projects/pilotquiz.jpg",
       video: "",
     },
     {
@@ -129,7 +129,7 @@ export const DATA = {
           href: "https://github.com/gusalfonso/pokedex-react-typescript",
         },
       ],
-      image: "../../img/projects/pokedex.png",
+      image: "../../img/projects/pokedex.jpg",
       video: "",
     },
     {
@@ -150,7 +150,7 @@ export const DATA = {
           href: "https://github.com/gusalfonso/pomodoro-js",
         },
       ],
-      image: "../../img/projects/pomodoro.png",
+      image: "../../img/projects/pomodoro.jpg",
       video: "",
     },
     {
@@ -171,7 +171,7 @@ export const DATA = {
           href: "https://github.com/gusalfonso/conways-game",
         },
       ],
-      image: "../../img/projects/conwaysgame.png",
+      image: "../../img/projects/conwaysgame.jpg",
       video: "",
     },
 
@@ -193,7 +193,7 @@ export const DATA = {
           href: "https://github.com/gusalfonso/localChatGPT",
         },
       ],
-      image: "../../img/projects/chatgpt.png",
+      image: "../../img/projects/chatgpt.jpg",
       video: "",
     },
   ],
