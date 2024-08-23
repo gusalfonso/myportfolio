@@ -9,7 +9,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import "../css/Carrousel.css";
-import { SiAstro, SiJupyter, SiTailwindcss } from "react-icons/si";
+import { SiAstro, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 function Carrousel() {
