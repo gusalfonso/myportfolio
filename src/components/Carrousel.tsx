@@ -4,11 +4,12 @@ import {
   FaGitAlt,
   FaHtml5,
   FaJs,
+  FaNodeJs,
   FaPython,
   FaReact,
 } from "react-icons/fa";
 import "../css/Carrousel.css";
-import { SiAstro, SiTailwindcss } from "react-icons/si";
+import { SiAstro, SiJupyter, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 function Carrousel() {
@@ -25,6 +26,7 @@ function Carrousel() {
           <Card skill="Astro" svg={<SiAstro size={45} />} />
           <Card skill="Git" svg={<FaGitAlt size={45} />} />
           <Card skill="MySQL" svg={<GrMysql size={45} />} />
+          <Card skill="Node.js" svg={<FaNodeJs size={45} />} />
           <Card skill="React" svg={<FaReact size={45} />} />
           <Card skill="HTML5" svg={<FaHtml5 size={45} />} />
           <Card skill="CSS3" svg={<FaCss3 size={45} />} />
@@ -34,6 +36,7 @@ function Carrousel() {
           <Card skill="Astro" svg={<SiAstro size={45} />} />
           <Card skill="Git" svg={<FaGitAlt size={45} />} />
           <Card skill="MySQL" svg={<GrMysql size={45} />} />
+          <Card skill="Node.js" svg={<FaNodeJs size={45} />} />
         </div>
       </li>
     </ul>
