@@ -1,12 +1,14 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
-import i18n from "../../../cv/i18n";
+//import { LanguageDetectorModule } from "i18next";
+import { useState } from "react";
 
 const LanguageSelector = () => {
-  //const { i18n } = useTranslation();
-  const currentLanguage = i18n.language.toUpperCase();
+  const [lang, setLang] = useState<string>('en')
+  const { i18n } = useTranslation();
+  //const currentLanguage = i18n.language.toUpperCase();
 
   const handleSelect = (code: string) => {
     i18n.changeLanguage(code.toLowerCase());
@@ -23,7 +25,7 @@ const LanguageSelector = () => {
             placeholder=""
             showSelectedLabel={false}
             showOptionLabel={false}
-            selected={currentLanguage}
+            selected={lang}
           />
         </DockIcon>
       </Dock>
