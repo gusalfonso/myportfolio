@@ -1,10 +1,11 @@
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
+import i18n from "../../../cv/i18n";
 
 const LanguageSelector = () => {
-  const { i18n } = useTranslation();
+  //const { i18n } = useTranslation();
   const currentLanguage = i18n.language.toUpperCase();
 
   const handleSelect = (code: string) => {
