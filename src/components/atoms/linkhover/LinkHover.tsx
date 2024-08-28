@@ -1,5 +1,5 @@
-import "../css/LinkHover.css";
-import { TechIcon } from "../types";
+import "./LinkHover.css";
+import { TechIcon } from "../../../types";
 
 function SocialLink({ title, svg, href }: TechIcon) {
   return (

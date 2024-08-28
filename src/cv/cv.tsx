@@ -18,7 +18,7 @@ export const DATA = {
   summary:
     "My name is Gustavo Alfonso, but my friends call me Tavi. Driven by a deep curiosity about electronics and programming, I have always sought to innovate and explore new technologies. While pursuing my studies in Chemical Engineering, I actively managed and ideated numerous projects, from designing Arduino circuits to developing dynamic web pages.  My passion for initiating and leading new ventures led me to co-found Hidrovita with colleagues, where we designed and built a hydroponics company focused on producing organic food, promoting sustainability, and advancing a circular economy.  Recently, I achieved a long-held dream by becoming an airplane pilot, further expanding my horizons and embracing new challenges",
   avatarUrl: "/img/me.jpg",
-  skills: ["React", "Typescript", "Python", "Go", "mySQL", "Astro", "Tailwind"],
+  skills: ["React", "Typescript", "Python", "mySQL", "Astro", "Tailwind"],
   navbar: [
     { href: "#hero", icon: AiOutlineHome, label: "Home" },
     { href: "#aboutme", icon: AiOutlineFileText, label: "About Me" },

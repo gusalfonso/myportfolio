@@ -1,6 +1,7 @@
-import "../css/NavBar.css";
-import { Dock, DockIcon } from "./Dock";
-import { DATA } from "../cv/cv";
+import "./NavBar.css";
+import { Dock, DockIcon } from "../../atoms/dock/Dock";
+import { DATA } from "../../../cv/cv";
+import LanguageSelector from "../../atoms/languageselector/LanguageSelector";
 
 export default function Navbar() {
   return (
@@ -26,6 +27,7 @@ export default function Navbar() {
             </DockIcon>
           ))}
       </Dock>
+      <LanguageSelector />
     </div>
   );
 }

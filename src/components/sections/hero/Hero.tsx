@@ -1,18 +1,19 @@
 import { MdOutlineMailOutline } from "react-icons/md";
-import "../css/Hero.css";
-import { DATA } from "../cv/cv";
-import LinkHover from "./LinkHover";
+import "./Hero.css";
+import LinkHover from "../../../components/atoms/linkhover/LinkHover";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="hero" id="hero">
       <div className="hero-container">
         <div className="me-container">
           <div className="me">
-            <h1 className="title">{`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}</h1>
-            <p className="description">{DATA.description}</p>
+            <h1 className="title">{t("hello")}</h1>
+            <p className="description">{t("description")}</p>
             <div className="hero-icons">
               <LinkHover
                 title="Linkedin"
@@ -32,7 +33,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="img-container">
-            <img src={DATA.avatarUrl} alt={DATA.name} />
+            <img src={t("avatarUrl")} alt={t("name")} />
           </div>
         </div>
       </div>

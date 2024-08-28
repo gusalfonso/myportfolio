@@ -6,6 +6,14 @@
   gap: 2rem;
 }
 
+.contact-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
 .contactbtn {
   display: flex;
   justify-content: center;

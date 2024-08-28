@@ -1,4 +1,4 @@
-import { DockProps, DockIconProps } from "../types"; // Importa los tipos desde el archivo `types.ts`
+import { DockProps, DockIconProps } from "../../../types"; // Importa los tipos desde el archivo `types.ts`
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 

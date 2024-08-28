@@ -36,3 +36,13 @@ export interface CardProp {
   skill: string;
   svg: ReactNode;
 }
+
+export interface Project {
+  active: any;
+  links: readonly { type: string; href: string }[];
+  href: string;
+  image: string;
+  title: string;
+  description: string;
+  technologies: string[];
+}

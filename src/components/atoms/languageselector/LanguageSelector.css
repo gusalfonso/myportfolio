@@ -1,0 +1,48 @@
+.language-selector {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  z-index: 1000;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.8;
+  pointer-events: auto;
+  padding: 1rem 0.3rem;
+  &:hover {
+    opacity: 1;
+  }
+}
+.language-selector div {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.language-selector button {
+  padding: 0;
+}
+
+.language-selector button,
+.language-selector ul {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#rfs-btn::after {
+  display: none;
+}
+
+.language-selector li {
+  margin: 0;
+  padding: 4px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (width < 600px) {
+  .language-selector {
+    position: absolute;
+    right: 20px;
+    top: 4rem;
+  }
+}

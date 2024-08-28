@@ -1,23 +1,22 @@
 import { TiContacts } from "react-icons/ti";
-import "../css/Contact.css";
+import "./Contact.css";
 import { MdOutlineMailOutline } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 function ContactMe() {
+  const { t } = useTranslation();
   return (
     <section className="contact" id="contact">
       <div className="title-container">
         <span className="section-icon">{<TiContacts />}</span>
-        <h1 className="section-title">Let's talk!</h1>
+        <h1 className="section-title">{t("contactsection")}</h1>
       </div>
       <div className="contact-container">
-        <p className="contact-p">
-          I'd love to hear from you! Whether you have questions or just want to
-          chat, drop me a message anytime.
-        </p>
+        <p className="contact-p">{t("contactp")}</p>
         <a className="contact-a" href="mailto:alfonsgustavo@gmail.com">
           <button className="contactbtn">
             <MdOutlineMailOutline size={25} />
-            Contact Me
+            {t("contactbtn")}
           </button>
         </a>
       </div>

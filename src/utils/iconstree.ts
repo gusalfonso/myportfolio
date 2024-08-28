@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from "react-icons/fa";
 import { IconType } from "react-icons";
-import { SiAstro } from "react-icons/si";
+import { SiAstro, SiNextdotjs, SiStrapi } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 
 function getIconForTech(tech: string): IconType | null {
@@ -21,6 +21,12 @@ function getIconForTech(tech: string): IconType | null {
   }
   if (tech === "Typescript") {
     return BiLogoTypescript;
+  }
+  if (tech === "NextJS") {
+    return SiNextdotjs;
+  }
+  if (tech === "Strapi") {
+    return SiStrapi;
   }
   return null;
 }

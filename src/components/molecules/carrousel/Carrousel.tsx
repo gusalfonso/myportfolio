@@ -1,4 +1,4 @@
-import Card from "./SkillCard";
+import Card from "../../atoms/skillcard/SkillCard";
 import {
   FaCss3,
   FaGitAlt,
@@ -8,8 +8,8 @@ import {
   FaPython,
   FaReact,
 } from "react-icons/fa";
-import "../css/Carrousel.css";
-import { SiAstro, SiTailwindcss } from "react-icons/si";
+import "./Carrousel.css";
+import { SiAstro, SiNextdotjs, SiStrapi, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 function Carrousel() {
@@ -27,6 +27,8 @@ function Carrousel() {
           <Card skill="Git" svg={<FaGitAlt size={45} />} />
           <Card skill="MySQL" svg={<GrMysql size={45} />} />
           <Card skill="Node.js" svg={<FaNodeJs size={45} />} />
+          <Card skill="Next.js" svg={<SiNextdotjs size={45} />} />
+          <Card skill="Strapi" svg={<SiStrapi size={45} />} />
           <Card skill="React" svg={<FaReact size={45} />} />
           <Card skill="HTML5" svg={<FaHtml5 size={45} />} />
           <Card skill="CSS3" svg={<FaCss3 size={45} />} />
@@ -37,6 +39,8 @@ function Carrousel() {
           <Card skill="Git" svg={<FaGitAlt size={45} />} />
           <Card skill="MySQL" svg={<GrMysql size={45} />} />
           <Card skill="Node.js" svg={<FaNodeJs size={45} />} />
+          <Card skill="Next.js" svg={<SiNextdotjs size={45} />} />
+          <Card skill="Strapi" svg={<SiStrapi size={45} />} />
         </div>
       </li>
     </ul>

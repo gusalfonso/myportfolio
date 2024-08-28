@@ -1,8 +1,8 @@
 import { FaGithub } from "react-icons/fa";
-import "../css/ProjectCard.css";
-import { ProjectCardProps } from "../types";
-import getIconForTech from "../utils/iconstree"; // Asegúrate de ajustar la ruta
-import SocialLink from "./LinkHover";
+import "./ProjectCard.css";
+import { ProjectCardProps } from "../../../types";
+import getIconForTech from "../../../utils/iconstree";
+import SocialLink from "../../atoms/linkhover/LinkHover";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function ProjectCard({
@@ -38,10 +38,10 @@ function ProjectCard({
         <div className="image-gradient"></div>
         <div className="preview-icons">
           <a href={links[0].href} target="_blank">
-            <FaArrowUpRightFromSquare size={25} />
+            <FaArrowUpRightFromSquare size={25} className="shadow" />
           </a>
           <a href={links[1].href} target="_blank">
-            <FaGithub size={25} />
+            <FaGithub size={25} className="shadow" />
           </a>
         </div>
       </div>

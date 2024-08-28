@@ -1,5 +1,5 @@
-import { CardProp } from "../types";
-import "../css/SkillCard.css";
+import { CardProp } from "../../../types";
+import "./SkillCard.css";
 
 function Card({ skill, svg }: CardProp) {
   return (
