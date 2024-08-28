@@ -3,7 +3,6 @@ import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
 //import { LanguageDetectorModule } from "i18next";
-import { useState } from "react";
 
 const LanguageSelector = () => {
   //const [lang, setLang] = useState<string>('en')
