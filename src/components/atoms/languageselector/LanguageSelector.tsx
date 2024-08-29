@@ -2,22 +2,30 @@ import { useTranslation } from "react-i18next";
 import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
-import { useState } from "react";
-//import { LanguageDetectorModule } from "i18next";
+import { useState, useEffect } from "react";
 
 const LanguageSelector = () => {
-  const [lang, setLang] = useState<string>("EN");
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language.toUpperCase();
-  console.log(currentLanguage);
-  console.log(lang);
 
-  const handleSelect = (code: string) => {
-    i18n.changeLanguage(code.toLowerCase());
-    setLang(code);
+  // Mapeo de idiomas a códigos de países.
+  const languageMap: { [key: string]: string } = {
+    en: "US",
+    es: "ES",
+    pt: "BR",
   };
 
-  // console.log(i18n);
+  const [lang, setLang] = useState<string>("US");
+
+  useEffect(() => {
+    // Ajustar el estado inicial basado en el idioma actual de i18n
+    const currentLanguageCode = i18n.language.split("-")[0]; // Obtén solo la parte "en" de "en-US", por ejemplo.
+    setLang(languageMap[currentLanguageCode] || "US");
+  }, [i18n.language]);
+
+  const handleSelect = (code: string) => {
+    i18n.changeLanguage(languageMap[code].toLowerCase());
+    setLang(code);
+  };
 
   return (
     <div className="language-selector">
