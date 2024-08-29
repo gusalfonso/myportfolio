@@ -30,7 +30,7 @@ const LanguageSelector = () => {
             placeholder=""
             showSelectedLabel={false}
             showOptionLabel={false}
-            selected={currentLanguage ? currentLanguage : "en"}
+            selected={lang}
           />
         </DockIcon>
       </Dock>
