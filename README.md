@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+<div align="center">
+<h1 align="center">Hola, soy <a href="https://gusportfolio.netlify.app/">Gus</a> 👋</h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre mi
 
-Currently, two official plugins are available:
+-  ⚗️ Chemical Engineer  
+-  📈 Data Scientist
+-  🧑🏽‍💻 Developer
+-  🛩️ Private Pilot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mi nombre es Gustavo Alfonso, pero mis amigos me llaman Tavi. Impulsado por una profunda curiosidad sobre la electrónica y la programación, siempre he buscado innovar y explorar nuevas tecnologías. Mientras cursaba mis estudios en Ingeniería Química, gestioné e ideé activamente numerosos proyectos, desde el diseño de circuitos Arduino hasta el desarrollo de páginas web dinámicas.
 
-## Expanding the ESLint configuration
+Mi pasión por iniciar y liderar nuevos proyectos me llevó a cofundar Hidrovita con compañeros, donde diseñamos y construimos una empresa de hidroponía enfocada en la producción de alimentos orgánicos, promoviendo la sostenibilidad y avanzando hacia una economía circular.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Recientemente, logré un sueño de mucho tiempo al convertirme en piloto de avión, ampliando aún más mis horizontes y abrazando nuevos desafíos.
+<br>
 
-- Configure the top-level `parserOptions` property like this:
+### ⚙️ &nbsp;GitHub Analytics
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="center">
+<a href="https://github.com/gusalfonso">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=gusalfonso&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gusalfonso&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
