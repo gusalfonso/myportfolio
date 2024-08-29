@@ -9,7 +9,9 @@ const LanguageSelector = () => {
   const currentLanguage = i18n.language;
   console.log(i18n);
   console.log(currentLanguage);
-  const [lang, setLang] = useState<string>(currentLanguage.toUpperCase());
+  const [lang, setLang] = useState<string>(
+    currentLanguage.toUpperCase().split("-")[0]
+  );
   console.log(lang);
   const handleSelect = (code: string) => {
     i18n.changeLanguage(code.toLowerCase());
