@@ -2,17 +2,21 @@ import { useTranslation } from "react-i18next";
 import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
-import { useState } from "react";
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  const [lang, setLang] = useState<string>(
-    currentLanguage.toUpperCase().split("-")[0]
-  );
+
+  let currentLanguage = i18n.language.toUpperCase().split("-")[0];
+
+  if (!["US", "ES", "PT"].includes(currentLanguage)) {
+    currentLanguage = "US";
+  } else if (currentLanguage === "PT") {
+    currentLanguage = "BR";
+  }
+
   const handleSelect = (code: string) => {
-    i18n.changeLanguage(code.toLowerCase());
-    setLang(code);
+    const languageCode = code === "BR" ? "PT" : code;
+    i18n.changeLanguage(languageCode.toLowerCase());
   };
 
   return (
@@ -26,7 +30,7 @@ const LanguageSelector = () => {
             placeholder=""
             showSelectedLabel={false}
             showOptionLabel={false}
-            selected={lang}
+            selected={currentLanguage}
           />
         </DockIcon>
       </Dock>

@@ -450,7 +450,7 @@ const resources = {
       ],
     },
   },
-  br: {
+  pt: {
     translation: {
       hello: `Olá, Sou Gustavo 👋`,
       name: "Gustavo Alfonso",
