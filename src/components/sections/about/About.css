@@ -1,3 +1,5 @@
-p {
-  margin-bottom: 2rem;
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

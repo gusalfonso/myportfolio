@@ -89,7 +89,6 @@ main {
   margin-inline: auto;
   max-width: 56rem;
   min-height: 100dvh;
-  gap: 2rem;
 }
 
 ol,
@@ -98,7 +97,8 @@ ul {
 }
 
 section {
-  padding: 20px;
+  padding-inline: 20px;
+  padding-top: 5rem;
   width: 100%;
   color: #30455c;
 
