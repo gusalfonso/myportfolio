@@ -3,21 +3,16 @@ import ReactFlagsSelect from "react-flags-select";
 import "./LanguageSelector.css";
 import { Dock, DockIcon } from "../dock/Dock";
 import { useState } from "react";
-//import { LanguageDetectorModule } from "i18next";
 
 const LanguageSelector = () => {
-  const [lang, setLang] = useState<string>("US");
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language.toUpperCase();
-  console.log(currentLanguage);
-  console.log(lang);
+  const currentLanguage = i18n.language;
+  const [lang, setLang] = useState<string>(currentLanguage.toUpperCase());
 
   const handleSelect = (code: string) => {
     i18n.changeLanguage(code.toLowerCase());
     setLang(code);
   };
-
-  // console.log(i18n);
 
   return (
     <div className="language-selector">

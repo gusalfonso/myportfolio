@@ -20,10 +20,30 @@ export const DATA = {
   avatarUrl: "/img/me.jpg",
   skills: ["React", "Typescript", "Python", "mySQL", "Astro", "Tailwind"],
   navbar: [
-    { href: "#hero", icon: AiOutlineHome, label: "Home" },
-    { href: "#aboutme", icon: AiOutlineFileText, label: "About Me" },
-    { href: "#projects", icon: AiOutlineCode, label: "Projects" },
-    { href: "#contact", icon: AiOutlineForm, label: "Contact" },
+    {
+      href: "#hero",
+      icon: AiOutlineHome,
+      label: "Home",
+      section: "homesection",
+    },
+    {
+      href: "#aboutme",
+      icon: AiOutlineFileText,
+      label: "About Me",
+      section: "aboutsection",
+    },
+    {
+      href: "#projects",
+      icon: AiOutlineCode,
+      label: "Projects",
+      section: "projectssection",
+    },
+    {
+      href: "#contact",
+      icon: AiOutlineForm,
+      label: "Contact",
+      section: "contactsection",
+    },
   ],
   contact: {
     email: "alfonsgustavo@gmail.com",

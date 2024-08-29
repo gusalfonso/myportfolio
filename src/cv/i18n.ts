@@ -147,7 +147,7 @@ const resources = {
           title: "Susurros en Papel",
           href: "https://susurrosenpapel.netlify.app",
           dates: "",
-          active: false,
+          active: true,
           description:
             "A blog for stories and poetry, built with Strapi and Next.js. Focused on creative expression and seamless reading.",
           technologies: ["HTML", "CSS", "Typescript", "NextJS", "Strapi"],
@@ -366,7 +366,7 @@ const resources = {
           title: "Susurros en Papel",
           href: "https://susurrosenpapel.netlify.app",
           dates: "",
-          active: false,
+          active: true,
           description:
             "Blog de cuentos y poesía, creado con Strapi y Next.js. Enfocado en la expresión creativa y una lectura fluida.",
           technologies: ["HTML", "CSS", "Typescript", "NextJS", "Strapi"],
@@ -585,7 +585,7 @@ const resources = {
           title: "Susurros en Papel",
           href: "https://susurrosenpapel.netlify.app",
           dates: "",
-          active: false,
+          active: true,
           description:
             "Blog de contos e poesia, construído com Strapi e Next.js. Focado na expressão criativa e leitura tranquila.",
           technologies: ["HTML", "CSS", "Typescript", "NextJS", "Strapi"],
