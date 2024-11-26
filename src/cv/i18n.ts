@@ -145,7 +145,7 @@ const resources = {
         },
         {
           title: "Susurros en Papel",
-          href: "https://susurrosenpapel.netlify.app",
+          href: "http://46.202.144.6:3000/",
           dates: "",
           active: true,
           description:
@@ -154,7 +154,7 @@ const resources = {
           links: [
             {
               type: "Website",
-              href: "https://susurrosenpapel.netlify.app",
+              href: "http://46.202.144.6:3000/",
             },
             {
               type: "Github",
@@ -364,7 +364,7 @@ const resources = {
         },
         {
           title: "Susurros en Papel",
-          href: "https://susurrosenpapel.netlify.app",
+          href: "http://46.202.144.6:3000/",
           dates: "",
           active: true,
           description:
@@ -373,7 +373,7 @@ const resources = {
           links: [
             {
               type: "Website",
-              href: "https://susurrosenpapel.netlify.app",
+              href: "http://46.202.144.6:3000/",
             },
             {
               type: "Github",
@@ -583,7 +583,7 @@ const resources = {
         },
         {
           title: "Susurros en Papel",
-          href: "https://susurrosenpapel.netlify.app",
+          href: "http://46.202.144.6:3000/",
           dates: "",
           active: true,
           description:
@@ -592,7 +592,7 @@ const resources = {
           links: [
             {
               type: "Website",
-              href: "https://susurrosenpapel.netlify.app",
+              href: "http://46.202.144.6:3000/",
             },
             {
               type: "Github",
