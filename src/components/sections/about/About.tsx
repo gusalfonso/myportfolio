@@ -17,7 +17,7 @@ function About() {
             .split(".  ")
             .map(
               (sentence, index) =>
-                sentence.trim() !== "" && <p key={index}>{sentence.trim()}.</p>
+                sentence.trim() !== "" && <p key={index}>{sentence.trim()}</p>
             )}
         </div>
       </section>
