@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-.bg {
+/* .bg {
   background-image: radial-gradient(
     ellipse 80% 80% at 50% -20%,
     #d9d8ff80,
@@ -29,59 +29,8 @@ body {
   );
   height: 100%;
   width: 100%;
-  /* background-color: #e5e5f7;
-  opacity: 1;
-  background-image: linear-gradient(
-      30deg,
-      #1b1e62 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #1b1e62 87.5%,
-      #1b1e62
-    ),
-    linear-gradient(
-      150deg,
-      #1b1e62 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #1b1e62 87.5%,
-      #1b1e62
-    ),
-    linear-gradient(
-      30deg,
-      #1b1e62 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #1b1e62 87.5%,
-      #1b1e62
-    ),
-    linear-gradient(
-      150deg,
-      #1b1e62 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #1b1e62 87.5%,
-      #1b1e62
-    ),
-    linear-gradient(
-      60deg,
-      #1b1e6277 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #1b1e6277 75%,
-      #1b1e6277
-    ),
-    linear-gradient(
-      60deg,
-      #1b1e6277 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #1b1e6277 75%,
-      #1b1e6277
-    ); */
-  /* background-size: 80px 140px;
-  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px; */
-}
+  
+} */
 
 main {
   display: flex;
@@ -100,7 +49,7 @@ section {
   padding-inline: 20px;
   padding-top: 5rem;
   width: 100%;
-  color: #30455c;
+  color: rgb(48, 69, 92);
 
   .title-container {
     display: flex;

@@ -6,11 +6,13 @@ import ContactMe from "./components/sections/contact/Contact";
 import Skills from "./components/sections/skills/Skills";
 import Footer from "./components/sections/footer/Footer";
 import Navbar from "./components/molecules/navbar/NavBar";
+import Particles from "./components/sections/background/Backgrond";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Particles />
       <main>
         <Hero />
         <About />
